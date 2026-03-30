@@ -38,3 +38,4 @@ class MySeleniumTests(StaticLiveServerTestCase):
         
         # Assert per comprovar que el login és correcte [cite: 56]
         self.assertIn("Site administration", self.selenium.title)
+
