@@ -19,7 +19,7 @@ from django.urls import path, include
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse("Benvingut a la pàgina principal")
+    return HttpResponse("Benvingut a la pàgina VIEWSITE")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
